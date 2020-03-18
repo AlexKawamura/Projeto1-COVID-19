@@ -12,7 +12,7 @@ body {
 }
 
 .titulo:hover {
-    color: darkgray;
+    color: lightgray;
     cursor: pointer;
 }
 
@@ -34,6 +34,31 @@ body {
     padding-left: 10px;
 }
 
+.selectbusca {
+    color: cornsilk;
+    font-size: 14pt;
+    padding-top: 20px;
+    display: block;
+}
+
+.statusbusca {
+    color: black;
+    font-size: 14pt;
+    position: relative;
+    font-family: Arial;
+}
+
+
+.dayonebusca {
+    color: black;
+    font-size: 14pt;
+    font-family: Arial;
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
 .botaobusca {
     background-color: rgb(50, 50, 175);
     color: cornsilk;
@@ -43,9 +68,16 @@ body {
     border-radius: 10px;
 }
 .botaobusca:hover {
-    background-color: rgb(125, 125, 175);
+    background-color: rgb(75, 75, 175);
     color: cornsilk;
     cursor: pointer;
+}
+
+.separador {
+    color: cornsilk;
+    background-color: cornsilk;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .visaogeral {
