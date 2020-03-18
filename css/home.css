@@ -1,12 +1,19 @@
 body {
     background-color: cadetblue;
+    text-align: center;
 }
 
 .titulo {
+    display: inline-block;
     font-size: 50pt;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
     color: cornsilk;
+}
+
+.titulo:hover {
+    color: darkgray;
+    cursor: pointer;
 }
 
 .busca {
@@ -20,28 +27,30 @@ body {
 }
 
 .inputbusca {
-    font-size: 24pt;
+    font-size: 22pt;
     width: 250pt;
     height: 25pt;
     border-radius: 10px;
+    padding-left: 10px;
 }
 
 .botaobusca {
-    position: absolute;
-    top:45%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    background-color: rgb(50, 50, 175);
+    color: cornsilk;
     font-size: 14pt;
     width: 80pt;
     height: 35pt;
     border-radius: 10px;
 }
+.botaobusca:hover {
+    background-color: rgb(125, 125, 175);
+    color: cornsilk;
+    cursor: pointer;
+}
 
 .visaogeral {
-    position: absolute;
-    top:60%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 .legendatabela {
