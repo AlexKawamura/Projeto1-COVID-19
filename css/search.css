@@ -16,91 +16,29 @@ body {
     cursor: pointer;
 }
 
-.busca {
-    text-align: center;
-}
-
-.textbusca {
-    font-size: 24pt;
-    color: cornsilk;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.inputbusca {
-    font-size: 22pt;
-    width: 250pt;
-    height: 25pt;
-    border-radius: 10px;
-    padding-left: 10px;
-}
-
-.selectbusca {
-    color: cornsilk;
-    font-size: 14pt;
-    padding-top: 20px;
-    display: block;
-    
-}
-
-.statusbusca {
-    color: black;
-    font-size: 14pt;
-    position: relative;
-    font-family: Arial;
-    border-radius: 10px;
-}
-
-
-.dayonebusca {
-    color: black;
-    font-size: 14pt;
-    font-family: Arial;
-    border-radius: 10px;
-}
-
-.select-selected {
-    background-color: DodgerBlue;
-}
-
-.botaobusca {
-    background-color: rgb(50, 50, 175);
-    color: cornsilk;
-    font-size: 14pt;
-    width: 80pt;
-    height: 35pt;
-    border-radius: 10px;
-}
-.botaobusca:hover {
-    background-color: rgb(75, 75, 175);
-    color: cornsilk;
-    cursor: pointer;
-}
-
 .separador {
     color: cornsilk;
     background-color: cornsilk;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.visaogeral {
+.pesquisa {
     margin-left:auto; 
     margin-right:auto;
-}
-
-.legendatabela {
-    color: cornsilk;
 }
 
 .tabela {
     margin:auto;
 }
 
+.legendatabela {
+    color: cornsilk;
+}
 
 .tabela > caption {
     text-align: left;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 32pt;
     border-bottom: .2em solid rgb(163, 199, 190);
     margin-bottom: .5em;
 }
@@ -133,5 +71,4 @@ body {
 
 .tabela tbody th:after {
     content: ":";
-    }
-  
+}
