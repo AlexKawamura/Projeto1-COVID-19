@@ -107,7 +107,7 @@ body {
 
 .tabela th,
 .tabela td {
-  text-align: right;
+  text-align: center;
   padding-right: .5em;
 }
 
@@ -127,8 +127,9 @@ body {
 }
 
 .tabela td {
-    background-color: darksalmon;
+    background-color: rgb(39, 134, 179);
     padding:.5em .5em .5em 3em;
+    color: cornsilk;
 }
 
 .tabela tbody th:after {

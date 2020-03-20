@@ -20,25 +20,27 @@ function listaGET() {
 // Constroi a tabela
 function buildTable(lista) {
   lista.forEach(element => {
-    // Inicializa variáveis
-    var tbody = document.querySelector('tbody');
-    var tr = document.createElement('tr');
-    var tdCountry = document.createElement('td');
-    var tdDate = document.createElement('td');
-    var tdCases = document.createElement('td');
-    var tdStatus = document.createElement('td');
+  // Inicializa variáveis
+  var new_tbody = document.querySelector('tbody');
+  var tr = document.createElement('tr');
+  var tdCountry = document.createElement('td');
+  var tdDate = document.createElement('td');
+  var tdCases = document.createElement('td');
+  var tdStatus = document.createElement('td');
 
-    // Preenche variáveis
-    tdCountry.innerHTML = element.Country;
-    tdDate.innerHTML = element.Date;
-    tdCases.innerHTML = element.Cases;
-    tdStatus.innerHTML = element.Status;
+  // Preenche variáveis
+  tdCountry.innerHTML = element.Country;
+  tdDate.innerHTML = element.Date;
+  tdCases.innerHTML = element.Cases;
+  tdStatus.innerHTML = element.Status;
 
-    // Adiciona variáveis na tabela
-    tr.appendChild(tdCountry);
-    tr.appendChild(tdDate);
-    tr.appendChild(tdCases);
-    tr.appendChild(tdStatus);
-    tbody.appendChild(tr);
+  // Adiciona variáveis na tabela
+  tr.appendChild(tdCountry);
+  tr.appendChild(tdDate);
+  tr.appendChild(tdCases);
+  tr.appendChild(tdStatus);
+  new_tbody.appendChild(tr);
   });
 }
+
+

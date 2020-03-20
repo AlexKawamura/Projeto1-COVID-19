@@ -65,8 +65,9 @@ body {
 }
 
 .tabela td {
-    background-color: darksalmon;
+    background-color: rgb(39, 134, 179);
     padding:.5em .5em .5em 3em;
+    color: cornsilk;
 }
 
 .tabela tbody th:after {
