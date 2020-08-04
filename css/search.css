@@ -27,6 +27,36 @@ body {
     margin-right:auto;
 }
 
+.countrybusca,
+.statusbusca {
+    color: black;
+    font-size: 14pt;
+    font-family: Arial;
+    border-radius: 10px;
+}
+
+.selectcountry,
+.selectstatus {
+    font-size: 14pt;
+    font-family: Arial;
+    color: cornsilk;
+}
+
+.botaobusca {
+    background-color: rgb(50, 50, 175);
+    color: cornsilk;
+    font-size: 14pt;
+    width: 80pt;
+    height: 35pt;
+    border-radius: 10px;
+}
+
+.botaobusca:hover {
+    background-color: rgb(75, 75, 175);
+    color: cornsilk;
+    cursor: pointer;
+}
+
 .tabela {
     margin:auto;
 }
@@ -65,8 +95,9 @@ body {
 }
 
 .tabela td {
-    background-color: darksalmon;
+    background-color: rgb(39, 134, 179);
     padding:.5em .5em .5em 3em;
+    color: cornsilk;
 }
 
 .tabela tbody th:after {
