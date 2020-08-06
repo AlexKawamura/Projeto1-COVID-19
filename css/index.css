@@ -84,7 +84,12 @@ body {
     padding-left: .5em;
 }
 
-.tabela> thead > tr:first-child > th {
+.tabela th,
+.tabela caption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+.tabela > thead > tr:first-child > th {
     text-align: center;
     color: cornsilk;
 }
