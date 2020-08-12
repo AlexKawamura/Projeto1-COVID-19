@@ -18,6 +18,9 @@ function countriesGET() {
 }
 
 function buildSelect(paises){
+  paises.sort(function sortCountry(pais1, pais2) {
+    return (pais1.Country > pais2.Country) ? 1 : ((pais2.Country > pais1.Country) ? -1 : 0);   
+  })
   var selectPais = document.querySelector('.countrybusca');
   selectPais.length = 0;
   let defaultOption = document.createElement('option');
@@ -28,7 +31,8 @@ function buildSelect(paises){
     for (let i = 0; i < paises.length; i++) {
       option = document.createElement('option');
       option.text = paises[i].Country;
-      option.value = paises[i].Slug;
+      //option.value = paises[i].Slug;
+      
       selectPais.add(option);
     }
 }
