@@ -1,50 +1,46 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>COVID-19: Home-page</title>
-    <link rel="stylesheet" href="css/home.css">
+    <title>COVID-19: Search</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="assets/icons/coronavirus.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body> 
-      <div>
-        <h1 class="titulo">COVID-19 / </h1>
-        <h3 class="titulo">Corona Vírus</h3>
-      </div>  
-      <div class="busca">
-          <label class="textbusca">Search by country name</label> <br><br>
-          <input class="inputbusca">
-          <label class="selectbusca">Choose a status: </label>
-          <select class="statusbusca">
-            <option value="0">Confirmed</option>
-            <option value="1">Deaths</option>
-            <option value="2">Recovered</option>
-            <option value="3">Teste</option>
-          </select>
-          <label class="selectbusca">See the first case: </label>
-          <select class="dayonebusca">
-            <option value="0">Yes</option>
-            <option value="1">No</option>
-          </select><br><br>
-          <button class="botaobusca">Search</button>
-      </div>
-      <hr class="separador">
-      <div class="visaogeral">
+    <div>
+        <h1 class="titulo">COVID-19</h1>
+    </div>
+    <hr class="separador">
+
+      <label class="selectcountry">Choose a country: </label>
+      <select class="countrybusca">
+        
+      </select>
+      <label class="selectstatus">Choose a status: </label>
+      <select class="statusbusca">
+        <option value="confirmed">Confirmed</option>
+        <option value="deaths">Deaths</option>
+        <option value="recovered">Recovered</option>
+      </select>
+      <button class="botaobusca">Search</button>
+
+      <div class="pesquisa">
         <table class="tabela">
-        <caption class="legendatabela">Summary</caption>
+        <caption class="legendatabela">Results</caption>
             <thead class="cabecalho">
             <tr>
                 <th scope="col">Country</th>
-                <th scope="col">Confirmed</th>
-                <th scope="col">Deaths</th>
-                <th scope="col">Recovered</th>
+                <th scope="col">Date</th>
+                <th scope="col">Cases</th>
+                <th scope="col">Status</th>
             </tr>
             </thead>
             <tbody>
             
             </tbody>
         </table>
-      </div>
+    </div>
   </body>
 </html>
 <script src="javascript/index.js"></script>

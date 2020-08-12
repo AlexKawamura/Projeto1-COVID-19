@@ -16,50 +16,30 @@ body {
     cursor: pointer;
 }
 
-.busca {
-    text-align: center;
-}
-
-.textbusca {
-    font-size: 24pt;
+.separador {
     color: cornsilk;
-    font-family: 'Times New Roman', Times, serif;
+    background-color: cornsilk;
+    margin-bottom: 5%;
 }
 
-.inputbusca {
-    font-size: 22pt;
-    width: 250pt;
-    height: 25pt;
-    border-radius: 10px;
-    padding-left: 10px;
+.pesquisa {
+    margin-left:auto; 
+    margin-right:auto;
 }
 
-.selectbusca {
-    color: cornsilk;
-    font-size: 14pt;
-    padding-top: 20px;
-    display: block;
-    
-}
-
+.countrybusca,
 .statusbusca {
     color: black;
     font-size: 14pt;
-    position: relative;
     font-family: Arial;
     border-radius: 10px;
 }
 
-
-.dayonebusca {
-    color: black;
+.selectcountry,
+.selectstatus {
     font-size: 14pt;
     font-family: Arial;
-    border-radius: 10px;
-}
-
-.select-selected {
-    background-color: DodgerBlue;
+    color: cornsilk;
 }
 
 .botaobusca {
@@ -70,44 +50,32 @@ body {
     height: 35pt;
     border-radius: 10px;
 }
+
 .botaobusca:hover {
     background-color: rgb(75, 75, 175);
     color: cornsilk;
     cursor: pointer;
 }
 
-.separador {
-    color: cornsilk;
-    background-color: cornsilk;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.visaogeral {
-    margin-left:auto; 
-    margin-right:auto;
+.tabela {
+    margin:auto;
 }
 
 .legendatabela {
     color: cornsilk;
 }
 
-.tabela {
-    margin:auto;
-}
-
-
 .tabela > caption {
     text-align: left;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 32pt;
     border-bottom: .2em solid rgb(163, 199, 190);
     margin-bottom: .5em;
 }
 
 .tabela th,
 .tabela td {
-  text-align: center;
+  text-align: right;
   padding-right: .5em;
 }
 
@@ -116,7 +84,12 @@ body {
     padding-left: .5em;
 }
 
-.tabela> thead > tr:first-child > th {
+.tabela th,
+.tabela caption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+
+.tabela > thead > tr:first-child > th {
     text-align: center;
     color: cornsilk;
 }
@@ -134,5 +107,4 @@ body {
 
 .tabela tbody th:after {
     content: ":";
-    }
-  
+}
